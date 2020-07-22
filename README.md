@@ -1,4 +1,4 @@
-# [LeetCode-Solutions](https://leetcode.com/problemset/all/)
+# [LeetCode-Solutions](https://codedecks-in.github.io/LeetCode-Solutions/)
 
 ![Language](https://img.shields.io/badge/language-Python%20%2F%20Java%20%2F%20JS-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)&nbsp;
@@ -22,7 +22,8 @@
 
 ### [Contributors](#contributors) helped us in providing these Awesome solutions.
 
-### If you want to contribute, please create a Pull Request. Check out ---> [Sample PR](https://github.com/codedecks-in/LeetCode-Solutions/pull/3)
+### If you want to contribute, please create a Pull Request. If you are new to Github please check pull request procedure ---> [PR process](https://github.com/codedecks-in/LeetCode-Solutions/blob/master/PULL_REQUEST_PROCESS.md)
+Check out ---> [Sample PR](https://github.com/codedecks-in/LeetCode-Solutions/pull/3)
 
 - There are new LeetCode questions every week. I'll keep updating for full summary and better solutions.
 - For more challenging problem solutions, you can also see our [HackerRank-Solutions](https://github.com/codedecks-in/HackerRank-Solutions), [ProjectEuler](https://github.com/codedecks-in/ProjectEuler-Solutions) repositories.
@@ -76,7 +77,6 @@
 
 | #   | Title                                                            | Solution                                | Time       | Space  | Difficulty | Tag       | Note |
 | --- | ---------------------------------------------------------------- | --------------------------------------- | ---------- | ------ | ---------- | --------- | ---- |
-| 001 | [Two Sum](https://leetcode.com/problems/two-sum)                 | [Java](./Java/two-sum.java)             | _O(n)_     | _O(n)_ | Easy       |           |      |
 | 56  | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Python](./Python/56_MergeIntervals.py) | _O(nlogn)_ | _O(n)_ | Medium     | Intervals |      |
 
 <br/>
@@ -89,7 +89,7 @@
 
 | #   | Title                                                                                 | Solution                                      | Time   | Space  | Difficulty | Tag | Note            |
 | --- | ------------------------------------------------------------------------------------- | --------------------------------------------- | ------ | ------ | ---------- | --- | --------------- |
-| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/)                             | [Java](./Java/ransom-note.java.java)          | _O(1)_ | _O(n)_ | Easy       |     | Character Count |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/)                             | [Java](./Java/ransom-note.java)          | _O(1)_ | _O(n)_ | Easy       |     | Character Count |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](./Java/reverse-words-in-a-string.java) | _O(1)_ | _O(n)_ | Medium     |     |                 |
 
 <br/>
@@ -126,7 +126,20 @@
 
 | #   | Title                                                         | Solution                          | Time   | Space  | Difficulty | Tag | Note          |
 | --- | ------------------------------------------------------------- | --------------------------------- | ------ | ------ | ---------- | --- | ------------- |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](./Java/valid-anagram.java) | _O(n)_ | _O(1)_ | Easy       |     | Unicode chars |
+| 001 | [Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/two-sum.java) <br> [Python](./Python/1_TwoSum.py)|_O(N)_|_O(N)_|Easy|||
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](./Java/valid-anagram.java) | _O(n)_ | _O(1)_ | Easy       |     | Unicode chars|
+
+<br/>
+<div align="right">
+    <b><a href="#algorithms">⬆️ Back to Top</a></b>
+</div>
+<br/>
+
+## Two Pointer
+
+| #    | Title                                                                                               | Solution                                                | Time     | Space     | Difficulty | Tag   | Note           |
+| ---- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | -------- | --------- | ---------- | ----- | -------------- |
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Python](./Python/5_LongestPalindromicSubstring.py)|_O(N^2)_|_O(N)_|Medium||Expand the Wings|
 
 <br/>
 <div align="right">
@@ -138,8 +151,8 @@
 
 | #   | Title                                                                 | Solution                                                             | Time      | Space     | Difficulty | Tag | Note                   |
 | --- | --------------------------------------------------------------------- | -------------------------------------------------------------------- | --------- | --------- | ---------- | --- | ---------------------- |
-| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](./Java/May-LeetCoding-Challenge/Day-1-First-Bad-Version.java) | _O(1)_    | _O(logn)_ | Easy       |     | Modified Binary Search |
-| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [JavaScript](./JavaScript/First-Bad-Version.js)                      | _O(logn)_ | _O(1)_    | Easy       |     | Binary Search          |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](./Java/May-LeetCoding-Challenge/Day-1-First-Bad-Version.java) <br> [JavaScript](./JavaScript/First-Bad-Version.js)                      | _O(logn)_ | _O(1)_    | Easy       |     | Binary Search          |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./Python/search-in-rotated-sorted-array.py)                     					       | _O(logn)_ | _O(1)_    | Medium     |     | Binary Search          |
 
 <br/>
 <div align="right">
@@ -173,6 +186,7 @@
 | [Lokendra Bohra](https://github.com/lokendra1704/) <br> <img src="https://github.com/lokendra1704.png" width="100" height="100">     | India   | Python               | [Leetcode](https://t.co/u0OByxhcHA) <br> [Hackerrank](https://www.hackerrank.com/lokendra17)                                                                 |
 | [Yuri Spiridonov](https://github.com/YuriSpiridonov) <br> <img src="https://github.com/YuriSpiridonov.png" width="100" height="100"> | Russia  | Python               | [Twitter](https://twitter.com/YuriSpiridonov)<br>[Leetcode](https://leetcode.com/yurispiridonov/)<br>[Hackerrank](https://www.hackerrank.com/YuriSpiridonov) |
 | [Naveen Kashyap](https://github.com/naveenkash) <br> <img src="https://github.com/naveenkash.png" width="100" height="100">          | India   | Javascript           | [Twitter](https://twitter.com/naveen_kashyapp)<br>[Leetcode](https://leetcode.com/naveenkash/)                                                               |
+| [Sachin Singh Negi](https://github.com/sachinnegi) <br> <img src="https://github.com/sachinnegi.png" width="100" height="100">       | India   | Python           	| [Twitter](https://twitter.com/SachinSinghNe17)<br>[Leetcode](https://leetcode.com/negisachin688/)<br>[Hackerrrak](https://www.hackerrank.com/negisachin688)  |                                                             |
 
 <br/>
 <div align="right">
